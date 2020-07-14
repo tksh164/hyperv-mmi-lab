@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hv-mmi-lab", "hv-mmi-lab\hv-mmi-lab.csproj", "{C48C48B7-2FEB-4211-8AF6-1AB43C41E500}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hv-mmi-lab", "hv-mmi-lab\hv-mmi-lab.csproj", "{C48C48B7-2FEB-4211-8AF6-1AB43C41E500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listvm", "listvm\listvm.csproj", "{EF8E3634-838E-4C63-BED0-92CE1B57D43D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C48C48B7-2FEB-4211-8AF6-1AB43C41E500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C48C48B7-2FEB-4211-8AF6-1AB43C41E500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C48C48B7-2FEB-4211-8AF6-1AB43C41E500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8E3634-838E-4C63-BED0-92CE1B57D43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8E3634-838E-4C63-BED0-92CE1B57D43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8E3634-838E-4C63-BED0-92CE1B57D43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8E3634-838E-4C63-BED0-92CE1B57D43D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
