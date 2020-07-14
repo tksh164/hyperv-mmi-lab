@@ -8,9 +8,9 @@ namespace hv_mmi_lab
     {
         static void Main(string[] args)
         {
-            var remoteComputer = "localhost";
+            var hvHostMachine = "localhost";
             var options = new CimSessionOptions();
-            using (var session = CimSession.Create(remoteComputer, options))
+            using (var session = CimSession.Create(hvHostMachine, options))
             {
                 const string namespaceName = @"root\virtualization\v2";
                 const string query = "SELECT * FROM Msvm_ComputerSystem";
