@@ -30,7 +30,7 @@ namespace listvm
             var options = new CimSessionOptions();
             using (var session = CimSession.Create(hvHostMachine, options))
             {
-                const string query = "SELECT * FROM Msvm_ComputerSystem Where Caption = 'Virtual Machine'";
+                const string query = "SELECT * FROM Msvm_ComputerSystem WHERE Caption = 'Virtual Machine'";
                 var cimOpsOptions = new CimOperationOptions();
                 var computerSystems = session.QueryInstances(VirtualizationNamespace, "WQL", query, cimOpsOptions);
 
