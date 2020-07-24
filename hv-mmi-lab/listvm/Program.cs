@@ -15,8 +15,8 @@ namespace listvm
                 PrintUsage();
                 return;
             }
-
             var hvHostMachine = args[0];
+
             var vms = GetVMs(hvHostMachine);
             PrintVMList(vms);
         }
