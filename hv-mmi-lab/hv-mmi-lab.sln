@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hv-mmi-lab", "hv-mmi-lab\hv-mmi-lab.csproj", "{C48C48B7-2FEB-4211-8AF6-1AB43C41E500}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listvm", "listvm\listvm.csproj", "{EF8E3634-838E-4C63-BED0-92CE1B57D43D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "listvm", "listvm\listvm.csproj", "{EF8E3634-838E-4C63-BED0-92CE1B57D43D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vmkvp", "vmkvp\vmkvp.csproj", "{54DDDCA8-E885-4315-9B10-A3E8D1CC554F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EF8E3634-838E-4C63-BED0-92CE1B57D43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF8E3634-838E-4C63-BED0-92CE1B57D43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF8E3634-838E-4C63-BED0-92CE1B57D43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DDDCA8-E885-4315-9B10-A3E8D1CC554F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DDDCA8-E885-4315-9B10-A3E8D1CC554F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DDDCA8-E885-4315-9B10-A3E8D1CC554F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DDDCA8-E885-4315-9B10-A3E8D1CC554F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
