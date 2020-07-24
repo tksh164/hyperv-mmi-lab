@@ -62,9 +62,10 @@ namespace listvm
             var exeName = Assembly.GetExecutingAssembly().GetName().Name;
             Console.WriteLine(@"Usage: {0} hyperv_host", exeName);
             Console.WriteLine();
-            Console.WriteLine("  Example: {0} localhost", exeName);
-            Console.WriteLine("  Example: {0} hvhost1", exeName);
-            Console.WriteLine("  Example: {0} hvhost1.internal.example.com", exeName);
+            Console.WriteLine("Examples:");
+            Console.WriteLine("  {0} localhost", exeName);
+            Console.WriteLine("  {0} hvhost1", exeName);
+            Console.WriteLine("  {0} hvhost1.internal.example.com", exeName);
         }
     }
 }
